@@ -5,6 +5,8 @@ This repository contains scripts and notebooks used in "Scalable single-cell CRI
 
 At present, these are simply presented as used to process a single lane of 10x data in the manuscript, with notebooks serving as examples.
 
+Download the guide sequencing data 904_3_v3.guide_barcode_reads.txt.gz (data from UPR experiment with sgRNA constant region 1 with capture sequence 1 in the stem loop) here: https://www.dropbox.com/s/ofop87zm4s2pluq/904_3_v3.guide_barcode_reads.txt.gz?dl=0
+
 The inputs to mixed_model_guide_calling.ipynb are:
 
 (1) a table where each row represents a read aligned to a unique guide identity, cellranger-corrected cell barcode, and cellranger-corrected UMI
