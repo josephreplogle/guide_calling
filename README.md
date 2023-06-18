@@ -11,8 +11,6 @@ The inputs to mixed_model_guide_calling.ipynb are:
 
 (2) the valid cell barcodes as determined by cellranger based on the scRNA-seq data
 
-An example can be downloaded: https://www.dropbox.com/sh/vvswv4t8tdophbl/AABPbg8yZC_gnvxDwOF9c2W6a?dl=0. This is the data from our UPR experiment with sgRNA constant region 1 with capture sequence 1 in the stem loop.
-
 These datasets are merged and then collapsed to a table of guide UMI counts for each cell.
 
 Then, for each guide, we fit a Poisson-Gaussian mixed model to determine thresholds for sgRNA positive and negative cells.
